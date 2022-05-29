@@ -5,7 +5,8 @@ public class Person {
     private String firstName;
     private String lastName;
     private String address;
-    private String ville;
+    private String city
+            ;
     private String zip;
     private String phone;
     private String mail;
@@ -35,12 +36,12 @@ public class Person {
         this.address = adress;
     }
 
-    public String getVille() {
-        return ville;
+    public String getCity() {
+        return city;
     }
 
-    public void setVille(String ville) {
-        this.ville = ville;
+    public void setCity(String ville) {
+        this.city = ville;
     }
 
     public String getZip() {
